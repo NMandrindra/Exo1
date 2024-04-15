@@ -2,21 +2,7 @@ from sympy import symbols, Or, And, Not
 from sympy.logic.boolalg import SOPform
 import itertools
 
-def table_verite(fonction, variables):
-    expression[i] = list(itertools.product([0, 1], repeat=len(variables))) 
-   
-  
-    print((),' | '.join(variables) + ' | ' + fonction)
-    print('_' * (len(variables) ** 2+10))   
-    for valeurs in valeurs_variables:
-        valeurs_str = [str(valeur) for valeur in valeurs]
-        resultat = eval(fonction, dict(zip(variables, valeurs)))
-        
-        if resultat == 0:
-            print((),' | '.join(valeurs_str) + ' | ' + str(int(resultat)),'|','   f')
-        else:
-            print((),' | '.join(valeurs_str) + ' | ' + str(int(resultat)),'|','   v')   
-            fonction = input("Entrez la fonction booléenne en utilisant les opérateurs logiques (& pour ET, | pour OU, ~ pour NON, ^ pour OU EXCLUSIF): ")
+expression = input("Entrez la fonction booléenne en utilisant les opérateurs logiques (& pour ET, | pour OU, ~ pour NON, ^ pour OU EXCLUSIF): ")
 variables = input("Entrez les noms des variables séparés par des espaces: ").split()
 table_verite(fonction, variables)
 
