@@ -1,0 +1,17 @@
+ algorithme_table_de_verite_première_et_seconde_forme_canonique
+ Debut_algorithme
+ 
+    Trouver toutes les variables dans la fonction booléenne
+   Générer les en-têtes de colonne pour la table de vérité
+   Générer toutes les combinaisons possibles de valeurs binaires pour les variables
+  Évaluer la fonction booléenne pour chaque combinaison de valeurs binaires
+  Vérifier si la sortie est vraie
+  Vérifier si la sortie est fausse
+   Afficher(entrer la fonction booléenne)
+ lire(fonction booléenne)
+ Générer la table de vérité
+  Afficher  (table de vérité)
+ Obtenir la première forme canonique et la deuxième forme canonique 
+ Afficher ('première formes canoniques=',première forme canonique)
+ Afficher ('deuxième forme canonique =',deuxième forme canonique)
+ Fin_algorithme
